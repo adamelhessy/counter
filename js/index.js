@@ -2,7 +2,7 @@ var result = document.getElementById("result");
 
 function numcolor() {
   var value = +result.textContent;
-  if (value > 0) {
+  if (value != 0) {
     result.style.color = "#3B6E7D";
   } else result.style.color = "#a36854";
 }
