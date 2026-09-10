@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      class="d-flex justify-content-center align-items-center w-100 flex-column p-4 bg-success-subtle vh-100"
+    >
+      <div class="container"></div>
+      <div
+        class="d-flex justify-content-center flex-column p-5 gap-2 bg-light border_style row col-12 col-md-8 col-lg-4"
+      >
+        <div class="d-flex justify-content-center align-items-center">
+          <p class="text_style">Counter</p>
+        </div>
+        <div>
+          <p
+            id="result"
+            class="d-flex justify-content-center align-items-center num_style"
+          >
+            0
+          </p>
+        </div>
+        <div
+          class="d-flex justify-content-between align-items-center gap-5 px-3"
+        >
+          <button class="btn btn_pls" onclick="increment()">+</button>
+          <button class="btn btn_min" onclick="decrement()">-</button>
+        </div>
+        <div class="d-flex justify-content-evenly align-items-center">
+          <button class="btn btn_rst border-0" onclick="reset()">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
