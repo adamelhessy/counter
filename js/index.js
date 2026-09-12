@@ -6,7 +6,7 @@ function numcolor() {
     result.style.color = "#3B6E7D";
   } else result.style.color = "#a36854";
 }
-
+numcolor();
 function increment() {
   var value = +result.textContent;
   value++;
